@@ -1,0 +1,140 @@
+body{
+	background-color: bisque;
+	
+}
+
+
+
+
+
+/*    ------       A导航栏      -------      */
+.navbar-brand{
+	font-family: "comic sans ms";
+	font-size: 24px;
+}
+/*导航栏*/
+.navbar-nav{
+	font-family: "comic sans ms";
+	font-size: 18px;
+}
+.dropdown{
+	position: relative;
+	left: 800px;
+}
+
+/*热门图片item的框高 */
+.Hot_Movie_Items{
+	width: 150px;
+	height: 210px;
+	display: inline-block;
+}
+/*
+.HotMovie_Photo{
+	width: 100%;
+	height: 100%;
+	display: inline;
+}
+*/
+/*Binggo图标*/
+#brand-img{
+	position: relative;
+	width: 40px;
+	height: 40px;
+	bottom: 10px;
+}
+
+
+/*    ------       B左边模块      -------      */
+
+#FullPage-Left{
+	position: absolute;
+	width: 980px;
+	height: auto;
+	padding: 10px;
+	margin: 10px;
+	border-style: dashed;
+	border-width: 2px;
+}
+
+
+
+
+
+/*    ------       C右边模块      -------      */
+
+#FullPage-Right{
+	position: absolute;
+	left: 990px;
+	top: 100px;
+	width: 518px;
+	height: auto;
+	padding: 10px;
+	margin: 10px;
+	border-style: dashed;
+	border-width: 2px;
+	
+}
+/*输入框*/
+.input-group{
+	width: 300px;
+}
+
+/*豆瓣偷的*/
+.review-list {
+    margin-top: 20px;
+}
+div {
+    display: block;
+}
+.review-list .review-item:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #ddd;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+}
+
+.chart  {
+    display: block;
+    
+}
+
+.review-list.chart .review-item  {
+    float: left;
+    margin-right: 20px;
+    max-width: 75px;
+    max-height: 107px;
+}
+.subject-img{
+	display: block;
+	float: left;
+	max-width: 75px;
+}
+.imgitem{
+	max-width: 75px;
+}
+
+li, ul {
+    list-style: none;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.top-tab>li {
+    float: left;
+}
+.top-tab .selected, .top-tab .selected a {
+    color: #111;
+    cursor: default;
+}
