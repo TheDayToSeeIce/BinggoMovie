@@ -1,0 +1,39 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 02/05/2019 01:22
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../font/Flaticon.eot");
+  src: url("../font/Flaticon.eot#iefix") format("embedded-opentype"),
+       url("../font/Flaticon.woff2") format("woff2"),
+       url("../font/Flaticon.woff") format("woff"),
+       url("../font/Flaticon.ttf") format("truetype"),
+       url("https://www.17sucai.com/preview/2413762/2021-11-24/canting%20mb/%E2%96%93%E2%95%90%E2%95%A0%E2%81%BF%E2%94%80%C3%BA%E2%96%91%CF%83/fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("https://www.17sucai.com/preview/2413762/2021-11-24/canting%20mb/%E2%96%93%E2%95%90%E2%95%A0%E2%81%BF%E2%94%80%C3%BA%E2%96%91%CF%83/fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-style: normal;
+/* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-dinner:before { content: "\f100"; }
+.flaticon-hot-coffee-rounded-cup-on-a-plate-from-side-view:before { content: "\f101"; }
+.flaticon-alcohol:before { content: "\f102"; }
+.flaticon-fish:before { content: "\f103"; }
+.flaticon-meat:before { content: "\f104"; }
+.flaticon-cook:before { content: "\f105"; }
