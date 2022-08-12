@@ -1,0 +1,192 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+
+<link rel="shortcut icon" type="image/x-icon" href="./assets/冰棍.svg" />
+		<link rel="stylesheet" type="text/css" href="../../Bootstrap框架/bootstrap.min.css" />
+		
+		<link rel="stylesheet" type="text/css" href="./css/BinggoHome.css" />
+		<link rel="stylesheet" type="text/css" href="./modules/bootstrap/bootstrap.min.css" />
+		<script src="./modules/bootstrap/jquery.min.js"></script>
+		<script src="./modules/bootstrap/bootstrap.min.js"></script>
+		<script src="../js/test.js"></script>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#"> <span id="brand-img-span"> <img id="brand-img" src="./assets/冰棍.svg" /> </span>
+						BingGo</a>
+				</div>
+				<div>
+					<ul class="nav navbar-nav">
+						<li ><a href="./binggohome.asp">首页</a></li>
+						<li><a href="./top100.asp">Top100</a></li>
+						<li ><a href="MovieList.asp">全部电影</a></li>
+						
+						<li><a href="./messages.asp">私信</a></li>
+						<li class="active"><a href="./Commen.asp">电影详情页</a></li>
+
+
+						<li class="dropdown">
+							<!-- 用户名和用户头像 -->
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="./assets/Yui.jpg" width="40px" height="40px"
+								 class="img-circle" />
+								Chaoxip <b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">个人中心</a></li>
+								<li><a href="#">账号设置</a></li>
+
+
+								<li class="divider"></li>
+								<li><a href="#">退出登录</a></li>
+							</ul>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+
+
+<div id="FullPage-Left">
+			
+			<h2>电影详情页</h2>
+			
+			
+		
+			<ul class="Top100List">
+			 
+				<li>
+					<div class="item">
+						<div class="pic">
+							
+							<a  href="MovieItem.asp?mid=3" >
+								<img width="200" alt="肖申克的救赎" src="./assets/MovieLists/Forrest Gump.jpg"
+								 class="">
+							</a>
+						</div>
+						<div class="info">
+							<div class="hd">
+								<a href="MovieItem.asp?mid=3" class="">
+									<span class="title">阿甘正传</span>
+									<span class="title">&nbsp;/&nbsp;Forrest Gump</span>
+									
+								</a>
+			
+			
+								
+							</div>
+							<div class="bd">
+								<p class="">
+									导演: 弗兰克·德拉邦特 Frank Darabont&nbsp;&nbsp;&nbsp;主演: 蒂姆·罗宾斯 Tim Robbins /...<br>
+									1994&nbsp;/&nbsp;美国&nbsp;/&nbsp;犯罪 剧情
+								</p>
+			
+			
+								<div class="star">
+									<span class="rating5-t"></span>
+									<span class="rating_num" property="v:average">9.7</span>
+									<span property="v:best" content="10.0"></span>
+									<span>2537129人评价</span>
+								</div>
+			
+								<p class="quote">
+									<span class="inq">希望让人自由。</span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</li>
+				
+				 
+			
+			
+				
+			
+			
+				
+			
+			
+			
+			
+			
+			</ul>
+			
+			
+			
+			
+			
+			<!--   左屏幕模块/热门评论  -->
+			<div class="div-GoodComments">
+
+<h1>全部评论</h1>
+
+
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">关于阿甘正传 &nbsp;&nbsp;By <a>@用户10086</a></div>
+    <div class="panel-body">
+        <p>2022-04-14
+        </p>
+    </div>
+    <ul class="list-group">
+        <li class="list-group-item">常常和朋友们谈起阿甘。阿甘太运气了！朋友们总是这样说。我哑然。我很奇怪，阿甘坐在那张凳子上，难道只是在告诉来来往往的陌生人：“瞧，我多运气”？
+    在好些年前，我曾对人生充满困惑。我不知道人活着为什么。有时候，我坐在窗台上，对自己说：我现在跳下去，与我活到死相比也没有区别吧。幸好，我没有跳下去。整整想了两年，我想出了一个答案：人怎么样才能活得更好？这个问题虽然没有答案，但心里不已经没有先前那么迷茫。</li>
+		 <li class="list-group-item"><span>点赞</span>153<img src="assets/svg/LikeClick.svg" width="30px" onclick="updateLikes(this.id)" id="likebtn2">
+		 <span>点踩</span>4 <img src="assets/svg/dislikeClick.svg" width="30px" onclick="updateLikes(this.id)" id="likebtn2"></li> 
+        <li class="list-group-item">&nbsp;<a><h4>全部回复</h4></a></li>
+		<li class="list-group-item">&nbsp;<a>@用户10010</a>回复：<a>@用户10086</a>：你说得对</li>
+		<li class="list-group-item">&nbsp;<a>@用户10086</a>回复：<a>@用户10010</a>：同意</li>
+		
+		
+		
+    </ul>
+</div>
+				
+
+
+
+
+				
+				
+				<!--底部信息 -->
+				<div class="Botton_Message">
+				<!-- 	<h1>底部信息</h1> -->
+
+				</div>
+
+
+
+
+
+			</div>
+			
+			
+			
+			
+			
+			
+		</div>
+
+		
+
+		<script>
+         var bt1=document.getElementById("anniu1");
+		 bt1.onclick=function(){
+			 console.log(window.location.search);
+		 }
+
+
+		</script>
+</body>
+</html>
